@@ -1,0 +1,8 @@
+models[0].rotation.y = 0;
+models[0].position.y = 0;
+models[0].position.z = 15;
+!
+var stepSize = (2 * Math.PI) / numSteps;
+models[0].rotation.y = stepSize * currStep;
+!
+24
